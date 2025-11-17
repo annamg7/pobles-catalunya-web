@@ -4,7 +4,7 @@
   "description": "Blog sobre pobles de Catalunya",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build": "parcel src/build index.html",
+    "build": "parcel build src/index.html",
     "build:css": "postcss src/estils.css -o dist/estils.css"
   },
   "devDependencies": {
