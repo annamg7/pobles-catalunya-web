@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" >
+        <meta
+            name = "Index"
+            content = "Landing page del blog Pobles de Catalunya">                                                    
+        <title>Pobles de Catalunya</title>
+        <link rel="stylesheet" href="estils.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logotip">
+                <img                                                                            
+                src = "imgs/Logo_web.png"
+                alt = "Logotip de la pàgina, amb el mapa de Catalunya en contorn marrò clar, i unes lletres marró fosc al centre que posa Pobles de Catalunya">
+            </a>
+        </header>
+
+        <nav>
+            <ul style="list-style-type:none; display:flex; gap:30px; padding:5px">
+                <li> <a href="index.html" class="active">INICI</a> </li>
+                <li>
+                    <a href="categoria.html" id="boto-menu">VISITA ▾</a>
+
+                    <ul id="submenu" style="list-style-type: none;">
+                        <li><a href="det1.html">Castell de L'Eramprunyà</a></li>
+                        <li><a href="det2.html">Mines arqueològiques</a></li>
+                        <li><a href="det3.html">Refugi antiaeri</a></li>
+                    </ul></li>
+                
+                <li> <a href="links.html">ENLLAÇOS</a> </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="modul-doble">
+                <div class="text">
+                    <h1>GAVÀ</h1><br>
+                    <p style="text-indent: 2em;"> <strong>Gavà</strong> és un municipi del Baix Llobregat, conformat per una població de quasi 48.000 habitants, i que delimita pel massís del Garraf (Serralada Litoral), fins al Delta del Llobregat i el mar.</p><br>
+                    <p style="text-indent: 2em;">Té una superfície de 30.75 km<sup>2</sup>, i delimita amb els pobles de Castelldefels, Viladecans i Begues, amb una costa total de 4 km<sup>2</sup>.</p><br>
+                    <p style="text-indent: 2em;">Així, ofereix multitud d'activitats i atractius per poder passar-hi uns dies. Es pot:</p>
+                    <ul style="list-style-type: square;" class="llista-enumerar">
+                            <li>Visitar l'ermita de la Mare de Déu del Bruguers</li>
+                            <li>Pujar a les ruïnes del Castell de L'Eramprunyà</li> 
+                            <li>Participar en festes tradicionals: Fira dels Espàrrecs, Festival Internacional de Titelles, etc.</li>
+                        </ul>
+                </div>
+                    <figure>
+                        <img class="fotografia"
+                            src = "imgs/arc-muntanya.jpg"
+                            alt = "Arc format per argila per la naturalesa en primer pla, ocupant la meitat superior de la imatge, i a través d'ell s'observen arbres i formacions rocoses"
+                        >
+                        <figcaption>Arc d'argila natural a Gavà | <a href="https://unsplash.com/es/@matoga">@Manuel Torres</a> / Unsplash</figcaption>
+                    </figure>
+            </section>
+
+        </main>
+
+        <footer>
+                © Pobles de Catalunya  <br>
+                UOC, 2025 | Per a l'assignatura Eines HTML i CSS
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>

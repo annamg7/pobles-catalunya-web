@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" >
+        <meta
+            name = "Index"
+            content = "Landing page del blog Pobles de Catalunya">                                                    
+        <title>Pobles de Catalunya</title>
+        <link rel="stylesheet" href="estils.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logotip">
+                <img                                                                            
+                src = "imgs/Logo_web.png"
+                alt = "Logotip de la pàgina, amb el mapa de Catalunya en contorn marrò clar, i unes lletres marró fosc al centre que posa Pobles de Catalunya">
+            </a>
+        </header>
+
+        <nav>
+            <ul style="list-style-type:none; display:flex; gap:30px; padding:5px">
+                <li> <a href="index.html">INICI</a> </li>
+                <li>
+                    <a href="categoria.html" id="boto-menu">VISITA ▾</a>
+
+                    <ul id="submenu" style="list-style-type: none;">
+                        <li><a href="det1.html">Castell de L'Eramprunyà</a></li>
+                        <li><a href="det2.html">Mines arqueològiques</a></li>
+                        <li><a href="det3.html" class="active">Refugi antiaeri</a></li>
+                    </ul></li>
+                
+                <li> <a href="links.html">ENLLAÇOS</a> </li>
+            </ul>
+        </nav>
+
+        <main>
+            <img src="imgs/refugi.jpg" alt="Interior d'un túnel del refugi, amb un tub de metall a la part superior, amb llums atenuades." class="encapçalament">
+
+            <h1 class="titol">REFUGI ANTIAERI GAVÀ</h1>
+
+            <p class="descripcio">Entre març i desembre de 1938, setze persones de Gavà van perdre la vida a causa dels bombardejos, ja que la ciutat era objectiu militar a causa de la fàbrica Roca, on es produïen projectils. Per respondre a aquesta amenaça, els treballadors de la fàbrica van construir un refugi subterrani sota la Rambla de Salvador Lluch, un túnel de 124 m amb tres entrades: una a la Rambla, una prop de l’estació i una altra darrere les oficines de Roca.</p>
+
+            <figure>
+                <img src="imgs/refugi-entrada.jpg" alt="Entrada a l'espai del refugi. És una porta doble, d'un material metàl·lic amb efecte rovellat, la porta dreta està oberta." class="imatge-petita">
+                <figcaption>Entrada al Refugi Antiaeri | <a href="https://commons.wikimedia.org/wiki/File:Refugi_Antiaeri_de_la_Rambla_de_Gav%C3%A0_-_Entrada.jpg?uselang=ca" target="_blank">Leeris-AaG</a> / Wikipedia</figcaption>
+            </figure>
+
+            <p class="descripcio">Aquest refugi va ser rehabilitat en els últims anys com a part de la recuperació de la memòria històrica de Gavà. S’han habilitat visites guiades per recórrer l’interior i conèixer de prop com era la vida en aquest espai durant la Guerra Civil, i descobrir les històries de por, solidaritat i supervivència de les persones que s’hi aixoplugaven.</p>
+
+            <figure>
+                <img src="imgs/refugi-placa.jpg" alt="Placa conmemorativa que diu: Aquest refugi va ser construït el 1938 per treballadors i treballadores de la companyia Roca i va ser recuperat per l'Ajuntament de Gavà l'any 2013, essent alcalde de la ciutat Joaquim Balsera, i és un homenatge a les víctimes dels bombardejos que Gavà va patir durant la guerra civil, en el 75è aniversari dels fets." class="imatge-petita">
+                <figcaption>Placa homenatge al Refugi Antiaeri | <a href="https://commons.wikimedia.org/wiki/File:Refugi_Antiaeri_de_la_Rambla_de_Gav%C3%A0_-_Inscripci%C3%B3.jpg" target="_blank">Leeris-AaG</a> / Wikipedia</figcaption>
+            </figure>
+
+            <p class="descripcio">Les visites són accessibles per al públic general i se celebren amb reserva prèvia a través del Museu de Gavà (plaça de Dolors Clua, 13-14). L’entrada té un cost d’uns 4 €, amb tarifes reduïdes disponibles i la possibilitat de visites escolars o en grups.</p>
+
+            <figure>
+                <img src="imgs/refugi-petjades.jpg" alt="Imatge fosca on s'observa la marca d'unes petjades de persones que van utilitzar el refugi" class="imatge-petita">
+                <figcaption>Restes de petjades dins el Refugi Antiaeri | <a href="https://commons.wikimedia.org/wiki/File:Refugi_Antiaeri_de_la_Rambla_de_Gav%C3%A0_-_Petjades.jpg" target="_blank">Leeris-AaG</a> / Wikipedia</figcaption>
+            </figure>
+
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5P7B-LKeUJU?si=uunNACCF6ygDC0bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>Vídeo de visita al Refugi Antiaeri | <a href="https://www.youtube.com/watch?v=5P7B-LKeUJU" target="_blank">@BARCINONEWS</a> / Youtube</figcaption>
+            </figure>
+
+        </main>
+
+        <footer>
+                © Pobles de Catalunya <br>
+                UOC, 2025 | Per a l'assignatura Eines HTML i CSS
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>

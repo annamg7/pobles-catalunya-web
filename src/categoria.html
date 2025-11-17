@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" >
+        <meta
+            name = "Index"
+            content = "Landing page del blog Pobles de Catalunya">                                                    
+        <title>Pobles de Catalunya</title>
+        <link rel="stylesheet" href="estils.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logotip">
+                <img                                                                            
+                src = "imgs/Logo_web.png"
+                alt = "Logotip de la pàgina, amb el mapa de Catalunya en contorn marrò clar, i unes lletres marró fosc al centre que posa Pobles de Catalunya">
+            </a>
+        </header>
+
+        <nav>
+            <ul style="list-style-type:none; display:flex; gap:30px; padding:5px">
+                <li> <a href="index.html">INICI</a> </li>
+                <li>
+                    <a href="categoria.html" id="boto-menu" class="active">VISITA ▾</a>
+
+                    <ul id="submenu" style="list-style-type: none;">
+                        <li><a href="det1.html">Castell de L'Eramprunyà</a></li>
+                        <li><a href="det2.html">Mines arqueològiques</a></li>
+                        <li><a href="det3.html">Refugi antiaeri</a></li>
+                    </ul></li>
+                
+                <li> <a href="links.html">ENLLAÇOS</a> </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="modul-vertical-complet">
+                <div class="modul-vertical">
+                    <a href="det1.html">
+                    <img src="imgs/castell.jpg" alt="Castell de l'Eramprunyà" class="foto-modul">
+
+                    <div class="text-modul">
+                        <h2>CASTELL DE L'ERAMPRUNYÀ</h2>
+                            <p>
+                            Ruïnes de l'antic Castell de L'Eramprunyà, situada al municipi de Gavà, dins el Parc Natural del Garraf. Es troba a 438m d'altitud, damunt del santuari de la Mare de Déu del Bruguers.
+                            </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="modul-vertical">
+                    <a href="det2.html">
+                    <img src="imgs/mines.jpg" alt="Parc Arqueològic Mines de Gavà" class="foto-modul">
+
+                    <div class="text-modul">
+                        <h2>PARC ARQUEOLÒGIC MINES DE GAVÀ</h2>
+                            <p>
+                            Aquestes mines tenen una antiguitat aproximada de 6.000 anys. Actualment, es calcula que les mines comprenen una superfície de 200 hectàrees, del que s'extreu un mineral verd anomenat variscita. 
+                            </p>
+                    </div>
+                    
+                </div>
+
+                <div class="modul-vertical">
+                    <a href="det3.html">
+                    <img src="imgs/refugi.jpg" alt="Refugi antiaeri de Gavà" class="foto-modul">
+
+                    <div class="text-modul">
+                        <h2>REFUGI ANTIAERI</h2>
+                            <p>
+                            El refugi antiaeri de la Rambla de Gavà és un túnel subterrani de 124 m construït el 1938 per protegir la població civil dels bombardejos durant la Guerra Civil.
+                            </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+        </main>
+
+        <footer>
+                © Pobles de Catalunya <br>
+                UOC, 2025 | Per a l'assignatura Eines HTML i CSS
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>

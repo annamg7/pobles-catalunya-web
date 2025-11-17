@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8" >
+        <meta
+            name = "Index"
+            content = "Landing page del blog Pobles de Catalunya">                                                    
+        <title>Pobles de Catalunya</title>
+        <link rel="stylesheet" href="estils.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logotip">
+                <img                                                                            
+                src = "imgs/Logo_web.png"
+                alt = "Logotip de la pàgina, amb el mapa de Catalunya en contorn marrò clar, i unes lletres marró fosc al centre que posa Pobles de Catalunya">
+            </a>
+        </header>
+
+        <nav>
+            <ul style="list-style-type:none; display:flex; gap:30px; padding:5px">
+                <li> <a href="index.html">INICI</a> </li>
+                <li>
+                    <a href="categoria.html" id="boto-menu">VISITA ▾</a>
+
+                    <ul id="submenu" style="list-style-type: none;">
+                        <li><a href="det1.html">Castell de L'Eramprunyà</a></li>
+                        <li><a href="det2.html" class="active">Mines arqueològiques</a></li>
+                        <li><a href="det3.html">Refugi antiaeri</a></li>
+                    </ul></li>
+                
+                <li> <a href="links.html">ENLLAÇOS</a> </li>
+            </ul>
+        </nav>
+
+        <main>
+            <img src="imgs/mines.jpg" alt="Interior de les mines, on es veuen diferents forats a les roques, i un post metàlic al centre amb una llum atenuada" class="encapçalament">
+
+            <h1 class="titol">PARC ARQUEOLÒGIC MINES DE GAVÀ</h1>
+
+            <p class="descripcio">Les mines prehistòriques de Gavà són un jaciment fascinant: fa uns 6.000 anys, les comunitats neolítiques excavaven galeries subterrànies per extreure variscita, un mineral verd amb què fabricaven joies. Aquestes mines són considerades una de les més antigues d’Europa, i algunes de les cavitats van ser reutilitzades com a tombes funeràries, aportant un testimoni arqueològic molt valuós.</p>
+
+            <figure>
+                <img src="imgs/mines-superior.jpg" alt="Espai obert sobre les mines, amb terra de fusta, i al centre hi ha un espai obert des d'on es poden veure les mines des de la part superior" class="imatge-petita">
+                <figcaption>Parc Arqueològic | <a href="https://www.patrimonigava.cat/es/espacios-patrimoniales/parque-arqueologico-minas-de-gava" target="_blank">Patrimoni Cultural de Gavà</a></figcaption>
+            </figure>
+
+            <p class="descripcio">El parc arqueològic disposa d’un centre d’interpretació modern i accessible, que ofereix una experiència educativa i immersiva mitjançant recursos audiovisuals i exposicions. A més dels recorreguts guiats, hi ha tallers didàctics per a escoles i famílies, i fins i tot una visita sensorial amb informació en braille dirigida a persones amb discapacitat visual.</p>
+
+            <figure>
+                <img src="imgs/mines-exterior.jpg" alt="Exterior de l'edifici. La façana és de vidre, amb dues circumferències, blava i groga d'esquerra a dreta. Hi ha una dona amb dos nens entrant, i un home passejant" class="imatge-petita">
+                <figcaption>Entrada al Parc Arqueològic | <a href="https://www.patrimonigava.cat/es/espacios-patrimoniales/parque-arqueologico-minas-de-gava" target="_blank">Patrimoni Cultural de Gavà</a></figcaption>
+            </figure>
+
+            <p class="descripcio">Pel que fa a l’accés, el Parc Arqueològic Mines de Gavà està situat al carrer Jaume I, 7, i el seu horari varia segons l’època de l’any. El preu de l’entrada general és de 7,50 €, mentre que les visites guiades costen 3,70 €.</p>
+
+            <figure>
+                <img src="imgs/mines-interior.jpg" alt="Espai obert sobre les mines. La part inferior de la imatge és una obertura arqueològica de les mines, i la part superior és l'estructura de fusta, amb una família observant l'excavació" class="imatge-petita">
+                <figcaption>Excavació al Parc Arqueològic | <a href="https://www.patrimonigava.cat/es/espacios-patrimoniales/parque-arqueologico-minas-de-gava" target="_blank">Patrimoni Cultural de Gavà</a></figcaption>
+            </figure>
+
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_vz-C0hOjqw?si=ZUWA4oK9ABnPviv-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>Vídeo de visita al Parc Arqueològic | <a href="https://www.youtube.com/watch?v=_vz-C0hOjqw&t" target="_blank">@DavidLLC</a> / Youtube</figcaption>
+            </figure>
+        </main>
+
+        <footer>
+                © Pobles de Catalunya <br>
+                UOC, 2025 | Per a l'assignatura Eines HTML i CSS
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>
